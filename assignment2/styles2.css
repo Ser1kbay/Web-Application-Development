@@ -1,0 +1,146 @@
+/* Apply basic styles to the whole page */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Section headers */
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+/* about me */
+section {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+/* Hobby */
+ul {
+    padding: 0;
+    text-align: center;
+}
+
+ul li {
+    background-color: #ccc;
+    margin: 5px;
+    padding: 10px;
+        
+}
+
+/* Table  */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: #fff;
+}
+
+/*NEW */
+@media (max-width: 768px) {
+    header, section, footer {
+        padding: 10px;
+        text-align: center;
+    }
+    ul li {
+        font-size: 14px;
+    }
+    table, th, td {
+        font-size: 12px;
+    }
+    section ul {
+        flex-direction: column;
+    }
+}
+
+/* Animations and Transitions */
+ul li:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+   }
+
+
+
+
+/* Custom Buttons */
+footer a {
+    padding: 10px 20px;
+    background-color: #555;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+footer a:hover {
+    background-color: #777;
+}
+
+/* Layouts using Flexbox and Grid */
+section ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+
+/* Enhanced Section Styling */
+section {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow:  10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Pseudo-elements and Custom Styles */
+h2::before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #333;
+    margin: 0 auto 10px;
+}
+
+/* Custom Fonts and Colors */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    color: #0f005c;
+}
