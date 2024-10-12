@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('img/newbackground.png') no-repeat center center fixed; /* Фоновое изображение */
+    background-size: cover; /* Заполнение фона */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 1); 
+}
+
+.logo {
+    width: 180px; 
+    margin-bottom: 20px; 
+}
+
+.dice-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.dice {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+button {
+    padding: 12px 20px;
+    font-size: 15px;
+    background-color: #08068d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2f26a5;
+}
+
+#result, #counter {
+    margin-top: 20px;
+    font-size: 20px;
+}
