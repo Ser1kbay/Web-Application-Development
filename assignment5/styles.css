@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+.notes-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.note-button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+
+.red { background-color: #FF0000; }
+.orange { background-color: #FF7F00; }
+.yellow { background-color: #FFFF00; color: black; }
+.green { background-color: #00FF00; }
+.blue { background-color: #0000FF; }
+.indigo { background-color: #4B0082; }
+.violet { background-color: #9400D3; }
+
+.note-button:hover {
+    filter: brightness(85%);
+}
